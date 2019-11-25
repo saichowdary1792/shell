@@ -1,3 +1,4 @@
+
 #!/bin/bash
 echo -e "enter character: \c"
 read p
@@ -6,4 +7,5 @@ echo $p is small;;
 	[A-Z]) echo $p is large ;;
 	[0-9]) echo $p is a digit ;;
 esac
+
 
